@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'outfit', sans-serif;
+}
+
+body{
+  background-color: hsl(217, 54%, 11%);
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.showcase {
+  width: 100%;
+  max-width: 300px;
+  padding: 1rem;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 20px;
+  box-shadow: 
+  -15px 30px rgb(1, 13, 34),
+  15px 30px rgb(1, 13, 34), 
+  25px 40px rgb(1, 13, 34), 
+  -25px 40px rgb(1, 13, 34),
+  35px 50px rgb(1, 13, 34),
+  -35px 50px rgb(1, 13, 34);
+}
+
+.showcase .image img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+.showcase .image{
+  position: relative;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.showcase .image span{
+  background-color: hsl(178, 100%, 50%, 0.6);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  border-radius: 10px;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.showcase .image span img{
+  width: 50px;
+}
+
+.showcase .image:hover span{
+  opacity: 1;
+}
+
+
+.showcase div:last-child h4{
+  margin: 0.8rem 0;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.showcase div:last-child h4:hover{
+  color: hsl(178, 100%, 50%);
+}
+
+.showcase div:last-child p{
+  margin: 0.8rem 0;
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+}
+
+.showcase div:last-child .balance{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.2rem;
+}
+
+.showcase div:last-child .balance div:first-child{
+  color: hsl(178, 100%, 50%);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.showcase div:last-child .balance div:first-child img{
+  width: 10px;
+}
+
+.showcase div:last-child .balance div:last-child {
+  color: hsl(215, 51%, 70%);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.showcase div:last-child hr{
+  border: 1px solid hsl(215, 32%, 27%);
+}
+
+.showcase div:last-child .author div:first-child img{
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.showcase div:last-child .author{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 1rem;
+}
+
+.showcase div:last-child .author div:last-child{
+  color:hsl(215, 51%, 70%);
+  font-size: 0.9rem;
+}
+
+.showcase div:last-child .author div:last-child span{
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.showcase div:last-child .author div:last-child span:hover{
+  color: hsl(178, 100%, 50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
