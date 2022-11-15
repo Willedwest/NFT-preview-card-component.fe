@@ -99,6 +99,7 @@ body{
   display: flex;
   align-items: center;
   gap: 5px;
+  font-weight: 600;
 }
 
 .showcase div:last-child .balance div:first-child img{
@@ -143,39 +144,6 @@ body{
 .showcase div:last-child .author div:last-child span:hover{
   color: hsl(178, 100%, 50%);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .attribution {
   font-size: 11px;
